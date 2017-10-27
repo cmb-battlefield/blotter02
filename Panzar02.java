@@ -9,9 +9,9 @@ import robocode.*;
 /**
  * Panzar01 - a robot by (your name here)
  */
-public class Panzar02 extends BravoBot
+public class Panzar02 extends AlphaBot
 {
-   int heading=100;
+   int heading=400;
    int reverse=50;
    int tRight =360;
    int tLeft=360;
@@ -58,8 +58,8 @@ public class Panzar02 extends BravoBot
       else
          turnGunLeft(e.getBearing());
       fire(2);
-      heading = heading + 300;
-      turnRight(90);
+      heading = heading + 600;
+      turnRight(80);
 	}
 	
 	/**
@@ -67,8 +67,8 @@ public class Panzar02 extends BravoBot
 	 */
 	public void onHitWall(HitWallEvent e) {
 		// Replace the next line with any behavior you would like
-		back(20);
-      this.turnLeft(90);
-      ahead(10);
+		back(60);
+      this.turnLeft(180);
+      ahead(40);
 	}	
 }
