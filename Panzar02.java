@@ -1,4 +1,4 @@
-package Soviet;
+//package Soviet;
 
 
 import robocode.*;
@@ -20,7 +20,8 @@ public class Panzar02 extends AlphaBot
 	 */
 	public void run() {
 		// Initialization of the robot should be put here
-
+      //AlphaBot aRbt = this.clone();
+      
 		// After trying out your robot, try uncommenting the import at the top,
 		// and the next line:
 
